@@ -1,0 +1,94 @@
+/*
+Name: Justin Kim
+Student No.: 146 377 163
+Date: August 10, 2020
+*/
+.aside
+{
+    box-sizing: border-box;
+    border-radius: 10px;
+    float: left;
+    width: 25%;
+    height: calc( 100vh - 80px );
+    padding: 0px 0px 0px 30px;
+    
+    background-color: lightsteelblue;
+    margin-left: -8px;
+}
+
+.student_info, .middle
+{
+    box-sizing: border-box;
+    float: left;
+    width: 55%;
+    padding: 0px 0px 0px 45px;
+    
+}
+
+.errors
+{
+    box-sizing: border-box;
+    float: left;
+    width: 20%;
+    padding: 0px 0px 0px 30px;
+}
+
+
+header
+{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.Navigation ul li:hover
+{
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+
+.Navigation ul
+{
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0 0 0 0px;
+	padding:0px;
+}
+
+.Navigation ul li a 
+{
+    padding: 10px 12px 13px 12px;
+   
+    
+    display: block;
+    line-height: 30px;
+    
+    font-weight: bold;
+    color: rgb(57, 91, 147);
+    text-decoration: none;
+    
+}
+
+.Navigation h2
+{
+    color: white;
+    margin-left: 10px;
+}
+
+.c_errors
+{
+    color: red;
+
+
+}
+
+footer 
+{
+    float: left;
+    margin: auto;
+    text-align: center;
+    color: #000;
+    padding-top: 500px;
+    width: 65%;
+}

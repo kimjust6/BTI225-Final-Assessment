@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Justin Kim Info</title>
+    <link rel="stylesheet" href="./normalize.css" />
+    <script src="./info.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Final Assessment</h1>
+    </header>
+
+        
+    <aside class="aside">
+        <div class="Navigation">
+            
+            <h2>
+                Menu
+            </h2>
+            
+            <ul>
+                <li>
+                    <a href="honesty.html">HONESTY</a>
+                </li>
+                <li>
+                    <a href="info.html">INFORMATION</a>
+                </li>
+                <li>
+                    <a href="reflection.html">REFLECTION</a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    
+
+    <section class="student_info">
+        <h2>Student Information</h2>
+        <form id="form_signup" name='form_signup' method='post' 
+        action='https://httpbin.org/post'
+        onsubmit='return validateForm(this);'>
+
+            
+            <label>Name:</label> &nbsp 
+            <input type="text" name="first_name" placeholder="First Name" autofocus required>
+            &nbsp &nbsp
+            <input type="text" name="last_name" placeholder="Last Name" required>
+            <br>
+            <br>
+            <label>Username:</label> &nbsp
+            <input type="text" name="username" placeholder="Username" required>
+            &nbsp &nbsp
+            <input type="password" name="password1" placeholder="Password" required>
+            &nbsp &nbsp
+            <input type="password" name="password2" placeholder="Repeat Password" required>
+            <br><br>
+            <label>Email:</label> &nbsp
+            
+            <input type="email" name="email" placeholder="Email" required>
+            <br>
+            <br>
+            <label>Age:</label> &nbsp
+            <input type="number" name="age" placeholder="Age" required>
+            <br>
+            <br>
+            <label>Education Level:</label> &nbsp
+            <select required>
+                <option value="">- select -</option>
+                <option value="Technical Diploma">Technical Diploma</option>
+                <option value="College Diploma">College Diploma</option>
+                <option value="Bachelor's Degree">Bachelor's Degree</option>
+                <option value="Master's Degree">Master's Degree</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <br>
+            <br>
+            <input type="radio" id="education1" name="educationLevel" required>
+            <label for="education1" id="graduated" value="Graduated">Graduated</label>
+            <input type="radio" id="Education2" name="educationLevel">
+            <label for="education2" id="Currently enrolled" value="Currently enrolled">Currently enrolled</label>
+            <input type="radio" id="Education3" name="educationLevel">
+            <label for="education3" id="Did not graduate" value="Did not graduate">Did not graduate</label>
+            <br>
+            <br>
+
+            <input type="submit" value="Submit">
+            &nbsp 
+            <input type="reset" value="Reset Fields">
+
+            <input type="hidden" name="lastName" id="lastName" value="Kim" />
+            <input type="hidden" name="studentId" id="studentId" value="146-377-163" />
+
+
+        </form>
+    </section> 
+    <section class="c_errors">
+        <h2>
+           <div id="d_errors"></div>
+        </h2>
+        <h2 id=error>
+
+        </h2>
+
+    </section>   
+
+</body>
+<footer>
+    <div class="foot">
+        
+        &copy; 2020 Justin Kim
+    </div>
+</footer>
+
+</html>
