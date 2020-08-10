@@ -22,6 +22,7 @@ Date: August 10, 2020
     float: left;
     width: 55%;
     padding: 0px 0px 0px 45px;
+    height: calc( 100vh - 100px );
     
 }
 
@@ -86,9 +87,9 @@ header
 footer 
 {
     float: left;
-    margin: auto;
+    
     text-align: center;
     color: #000;
-    padding-top: 500px;
+    
     width: 65%;
 }
